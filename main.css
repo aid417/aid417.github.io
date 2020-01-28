@@ -27,11 +27,14 @@ body {
   background: rgb(238, 238, 238);
 }
 
-#resume {
-  border: 1px solid brown;
-  height: 500px;
+#experience {
+  /* border: 1px solid brown; */
+  height: 90vh;
 }
-
+#education {
+  border: 1px solid red;
+  height: 90vh;
+}
 #portfolio {
   border: 1px solid green;
   height: 500px;
@@ -214,4 +217,89 @@ a:hover {
   font-family: "Open Sans", sans-serif;
   font-weight: bold;
   font-size: 40px;
+}
+
+.experiencecontent {
+  /* border: 1px solid purple; */
+  font-family: "Open Sans", sans-serif;
+  height: 100%;
+}
+.experiencetitle {
+  /* border: 1px solid green; */
+  text-align: center;
+  margin-top: 50px;
+}
+.experiencetitle > h2 {
+  font-family: "Raleway", sans-serif;
+  font-size: 50px;
+  letter-spacing: 3px;
+  font-weight: bold;
+}
+.experiencetitle > hr {
+  /* background: rgb(76, 33, 42); */
+  background: rgb(161, 161, 161);
+  height: 3px;
+}
+.generalassembly {
+  text-align: center;
+  /* border: 1px solid green; */
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  margin-top: 40px;
+}
+.paradigm {
+  text-align: center;
+  /* border: 1px solid purple; */
+  width: 80%;
+  margin: 0 auto;
+}
+.generalassembly > h3 {
+  /* font-family: "Roboto Mono", monospace; */
+  font-weight: bold;
+  font-size: 30px;
+}
+.generalassembly > h4 {
+  color: rgb(0, 99, 93);
+  font-size: 25px;
+  font-weight: bold;
+}
+.generalassembly > h5 {
+  font-weight: bold;
+  font-size: 20px;
+  text-decoration: underline;
+}
+.generalassembly > p {
+  font-size: 20px;
+}
+.paradigm > h3 {
+  font-weight: bold;
+  font-size: 30px;
+}
+.paradigm > h4 {
+  color: rgb(0, 99, 93);
+  font-size: 25px;
+  font-weight: bold;
+}
+.paradigm > h5 {
+  font-weight: bold;
+  font-size: 20px;
+  text-decoration: underline;
+}
+.paradigm > p {
+  font-size: 20px;
+}
+.resume {
+  /* border: 1px solid purple; */
+  width: 200px;
+  margin: 0 auto;
+  text-align: center;
+}
+.resume > a {
+  color: rgb(0, 99, 93);
+  font-weight: bold;
+  font-size: 20px;
+}
+.resume > a:hover {
+  color: black;
 }
