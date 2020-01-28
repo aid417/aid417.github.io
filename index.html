@@ -44,7 +44,6 @@
               <a class="mainnav" href="#skills">SKILLS</a>
               <!-- <a class="mainnav" href="#resume">RESUMÉ</a> -->
               <a class="mainnav" href="#experience">EXPERIENCE</a>
-              <a class="mainnav" href="#education">EDUCATION</a>
               <a class="mainnav" href="#portfolio">PORTFOLIO</a>
               <a class="mainnav" href="#contact">CONTACT</a>
             </div>
@@ -141,8 +140,67 @@
         </div>
       </div>
     </section>
-    <section id="education"></section>
-    <section id="portfolio"></section>
-    <section id="contact"></section>
+
+    <section id="portfolio">
+      <div class="portfoliocontent">
+        <div class="portfoliotitle">
+          <h2>PORTFOLIO</h2>
+          <hr />
+        </div>
+        <div class="projects">
+          <div class="news">
+            <img src="new.png" width="400" height="200" />
+            <p>
+              Personalized news aggregator built with React, Heroku Scheduler,
+              Rails, Ruby, Javascript
+            </p>
+            <div class="projectlinks">
+              <a href="http://personalnews.surge.sh/" target="_blank"
+                >Live Site</a
+              >
+              <a
+                href="https://github.com/aid417/final-project-front-end"
+                target="_blank"
+                >GitHub</a
+              >
+            </div>
+          </div>
+          <div class="frowsy">
+            <a href="http://scintillating-wheel.surge.sh/Home" target="_blank">
+              <img src="frowsy.png" width="400" height="200"
+            /></a>
+            <p>
+              Task app built with React, MongoDB, Javascript
+            </p>
+            <div class="projectlinks">
+              <a href="http://scintillating-wheel.surge.sh/Home" target="_blank"
+                >Live Site</a
+              >
+              <a
+                href="https://github.com/aid417/frowsy-front-end"
+                target="_blank"
+                >GitHUb</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="contact">
+      <div class="form">
+        <h2>CONTACT ME</h2>
+        <hr />
+        <p>
+          send me an email at darcangeloalice@gmail.com or fill out the form
+          below
+        </p>
+        <form action="https://formspree.io/mrgqgzeo" method="POST">
+          <input type="text" name="name" placeholder="Name" />
+          <input type="text" name="email" placeholder="Email Address" />
+          <textarea name="message" placeholder="Your Message"></textarea>
+          <input type="submit" class="submit" value="submit" />
+        </form>
+      </div>
+    </section>
   </body>
 </html>

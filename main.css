@@ -31,18 +31,16 @@ body {
   /* border: 1px solid brown; */
   height: 90vh;
 }
-#education {
-  border: 1px solid red;
-  height: 90vh;
-}
+
 #portfolio {
-  border: 1px solid green;
-  height: 500px;
+  /* border: 1px solid green; */
+  height: 100vh;
+  background: rgb(238, 238, 238);
 }
 
 #contact {
-  border: 1px solid yellow;
-  height: 500px;
+  background-color: rgb(1, 23, 47);
+  height: 100vh;
 }
 hr {
   width: 250px;
@@ -263,6 +261,7 @@ a:hover {
   color: rgb(0, 99, 93);
   font-size: 25px;
   font-weight: bold;
+  font-family: "Roboto Mono", monospace;
 }
 .generalassembly > h5 {
   font-weight: bold;
@@ -280,6 +279,7 @@ a:hover {
   color: rgb(0, 99, 93);
   font-size: 25px;
   font-weight: bold;
+  font-family: "Roboto Mono", monospace;
 }
 .paradigm > h5 {
   font-weight: bold;
@@ -291,15 +291,133 @@ a:hover {
 }
 .resume {
   /* border: 1px solid purple; */
-  width: 200px;
+  width: 250px;
   margin: 0 auto;
   text-align: center;
 }
 .resume > a {
   color: rgb(0, 99, 93);
   font-weight: bold;
-  font-size: 20px;
+  font-size: 30px;
 }
 .resume > a:hover {
   color: black;
+}
+.portfoliocontent {
+  border: 1px solid transparent;
+  height: 100%;
+}
+.portfoliotitle {
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 100px;
+}
+.portfoliotitle > h2 {
+  font-family: "Raleway", sans-serif;
+  font-size: 50px;
+  letter-spacing: 3px;
+  font-weight: bold;
+}
+.projects {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin-top: 50px;
+  /* border: 1px solid orange; */
+}
+.news {
+  /* border: 1px solid black; */
+  width: 500px;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+}
+.frowsy {
+  /* border: 1px solid black; */
+  width: 500px;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+}
+.frowsy > p {
+  margin-top: 10px;
+}
+.news > p {
+  margin-top: 10px;
+}
+.news > .projectlinks > a {
+  color: rgb(8, 164, 189);
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.frowsy > .projectlinks > a {
+  color: rgb(8, 164, 189);
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.frowsy > .projectlinks > a:hover {
+  color: white;
+}
+
+.news > .projectlinks > a:hover {
+  color: white;
+}
+
+.projectlinks {
+  display: flex;
+  justify-content: space-evenly;
+}
+#contact {
+  padding-top: 100px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  margin: 0 auto;
+  justify-content: space-between;
+  height: 350px;
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+}
+.form {
+  text-align: center;
+}
+.form > p {
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+}
+.form > h2 {
+  color: white;
+  font-family: "Raleway", sans-serif;
+  font-size: 50px;
+  letter-spacing: 3px;
+  font-weight: bold;
+}
+input {
+  border-radius: 5px;
+  border-color: transparent;
+  font-style: italic;
+}
+textarea {
+  border-radius: 5px;
+  border-color: transparent;
+  font-style: italic;
+  height: 200px;
+}
+
+.submit {
+  font-style: normal;
+  width: 100px;
+  color: white;
+  background: rgb(8, 164, 189);
+  margin: 0 auto;
+}
+.submit:hover {
+  background: white;
+  color: rgb(8, 164, 189);
 }
