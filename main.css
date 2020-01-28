@@ -23,12 +23,12 @@ body {
 
 #skills {
   /* border: 1px solid orange; */
-  height: 600px;
+  height: 90vh;
   background: rgb(238, 238, 238);
 }
 
 #resume {
-  border: 1px solid red;
+  border: 1px solid brown;
   height: 500px;
 }
 
@@ -162,4 +162,56 @@ a:hover {
 .contactbutton:hover {
   background: rgb(0, 99, 93);
   color: white;
+}
+#skills > .content {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  /* border: 1px solid purple; */
+}
+.skills {
+  /* border: 1px solid red; */
+  text-align: center;
+  margin-top: 100px;
+}
+.skills > h2 {
+  /* border: 1px solid red; */
+  font-family: "Raleway", sans-serif;
+  font-size: 50px;
+  letter-spacing: 3px;
+  font-weight: bold;
+}
+
+.skills > hr {
+  height: 3px;
+}
+.skillslist {
+  display: flex;
+  justify-content: space-evenly;
+  /* border: 1px solid red; */
+  margin-top: 50px;
+}
+
+.frontend {
+  /* border: 1px solid green; */
+  letter-spacing: 3px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 22px;
+}
+.frontend > h3 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.backend {
+  /* border: 1px solid purple; */
+  letter-spacing: 3px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 22px;
+}
+.backend > h3 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+  font-size: 40px;
 }
