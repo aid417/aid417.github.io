@@ -18,13 +18,13 @@ body {
   height: 100%;
 }
 #aboutme {
-  border: 1px solid purple;
-  height: 500px;
+  height: 80vh;
 }
 
 #skills {
-  border: 1px solid orange;
-  height: 500px;
+  /* border: 1px solid orange; */
+  height: 600px;
+  background: rgb(238, 238, 238);
 }
 
 #resume {
@@ -46,22 +46,28 @@ hr {
   height: 1.3px;
   background: rgb(8, 164, 189);
 }
-.name {
-  font-family: "Roboto Mono", monospace;
-  font-size: 50px;
-  font-weight: bold;
-  text-align: center;
-  width: 100%;
-}
 .main {
   font-family: "Raleway", sans-serif;
   color: white;
   /* border: 1px solid red; */
   margin: auto;
   margin-top: 280px;
-
-  width: 500px;
+  /* border: 1px solid purple; */
+  width: 1000px;
   text-align: center;
+  letter-spacing: 3px;
+}
+.name {
+  font-family: "Roboto Mono", monospace;
+  /* border: 1px solid orange; */
+
+  font-weight: bold;
+  /* text-align: center; */
+  width: 100%;
+  letter-spacing: 3px;
+}
+.name > h1 {
+  font-size: 50px;
 }
 .mainnav {
   color: white;
@@ -76,8 +82,9 @@ a:hover {
   font-size: 18px;
   margin: 0 auto;
   font-family: "Raleway", sans-serif;
-  margin-top: 250px;
+  margin-top: 230px;
   width: 100%;
+  letter-spacing: 3px;
 }
 .linkss {
   display: flex;
@@ -97,4 +104,62 @@ a:hover {
   font-size: 18px;
   font-family: "Raleway", sans-serif;
   width: 100%;
+}
+.highlight {
+  color: rgb(8, 164, 189);
+}
+.about {
+  /* border: 1px solid red; */
+  text-align: center;
+  margin-top: 100px;
+}
+.about > h2 {
+  font-family: "Raleway", sans-serif;
+  font-size: 50px;
+  letter-spacing: 3px;
+  font-weight: bold;
+}
+.about > hr {
+  /* background: rgb(76, 33, 42); */
+  background: rgb(0, 99, 93);
+  height: 3px;
+}
+.pabout {
+  font-family: "Open Sans", sans-serif;
+  font-size: 30px;
+  width: 80%;
+  /* border: 1px solid red; */
+  margin: 0 auto;
+  margin-top: 50px;
+}
+.green {
+  color: rgb(0, 99, 93);
+  font-weight: bold;
+  font-size: 32px;
+}
+
+.contactme {
+  /* border: 1px solid red; */
+  width: 300px;
+  height: 90px;
+  margin: 0 auto;
+  margin-top: 30px;
+  text-align: center;
+}
+
+.contactbutton {
+  height: 80px;
+  width: 280px;
+  background: none;
+  border: 3px solid rgb(0, 99, 93);
+  border-radius: 10px;
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  font-size: 35px;
+  letter-spacing: 3px;
+  color: rgb(0, 99, 93);
+}
+.contactbutton:hover {
+  background: rgb(0, 99, 93);
+  color: white;
 }
