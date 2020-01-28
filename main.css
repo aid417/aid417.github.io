@@ -1,0 +1,100 @@
+body {
+  margin: 0;
+  border: 0;
+  padding: 0;
+}
+.background {
+  background: url("manhattan-336708_1920.jpg");
+  position: relative;
+  height: 100vh;
+}
+
+.layer {
+  background-color: rgba(1, 23, 47, 0.7);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+#aboutme {
+  border: 1px solid purple;
+  height: 500px;
+}
+
+#skills {
+  border: 1px solid orange;
+  height: 500px;
+}
+
+#resume {
+  border: 1px solid red;
+  height: 500px;
+}
+
+#portfolio {
+  border: 1px solid green;
+  height: 500px;
+}
+
+#contact {
+  border: 1px solid yellow;
+  height: 500px;
+}
+hr {
+  width: 250px;
+  height: 1.3px;
+  background: rgb(8, 164, 189);
+}
+.name {
+  font-family: "Roboto Mono", monospace;
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+  width: 100%;
+}
+.main {
+  font-family: "Raleway", sans-serif;
+  color: white;
+  /* border: 1px solid red; */
+  margin: auto;
+  margin-top: 280px;
+
+  width: 500px;
+  text-align: center;
+}
+.mainnav {
+  color: white;
+}
+.mainnav:hover {
+  color: rgb(161, 161, 161);
+}
+a:hover {
+  text-decoration: none;
+}
+.nav {
+  font-size: 18px;
+  margin: 0 auto;
+  font-family: "Raleway", sans-serif;
+  margin-top: 250px;
+  width: 100%;
+}
+.linkss {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0 auto;
+
+  width: 1000px;
+}
+.sticky {
+  background-color: rgba(1, 23, 47, 0.9);
+  position: fixed;
+  top: 0;
+  margin: 0 auto;
+  height: 50px;
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 18px;
+  font-family: "Raleway", sans-serif;
+  width: 100%;
+}
