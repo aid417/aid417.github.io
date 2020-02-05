@@ -421,3 +421,14 @@ textarea {
   background: white;
   color: rgb(8, 164, 189);
 }
+
+@media not all and (min-resolution: 0.001dpcm) {
+  @media {
+    .contactme {
+      width: 300px;
+    }
+    .contactbutton {
+      width: 290px;
+    }
+  }
+}
