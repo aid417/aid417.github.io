@@ -430,5 +430,8 @@ textarea {
     .contactbutton {
       width: 290px;
     }
+    .resume {
+      width: 300px;
+    }
   }
 }
