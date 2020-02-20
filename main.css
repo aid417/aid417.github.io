@@ -18,29 +18,29 @@ body {
   height: 100%;
 }
 #aboutme {
-  height: 80vh;
+  height: 600px;
 }
 
 #skills {
   /* border: 1px solid orange; */
-  height: 90vh;
+  height: 700px;
   background: rgb(238, 238, 238);
 }
 
 #experience {
   /* border: 1px solid brown; */
-  height: 90vh;
+  height: 700px;
 }
 
 #portfolio {
   /* border: 1px solid green; */
-  height: 100vh;
+  height: 700px;
   background: rgb(238, 238, 238);
 }
 
 #contact {
   background-color: rgb(1, 23, 47);
-  height: 100vh;
+  height: 700px;
 }
 hr {
   width: 250px;
@@ -144,7 +144,7 @@ a:hover {
   width: 300px;
   height: 90px;
   margin: 0 auto;
-  margin-top: 30px;
+  margin-top: 50px;
   text-align: center;
 }
 
